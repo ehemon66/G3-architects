@@ -1,9 +1,57 @@
-body{
-    background-color: #f0f5f57d;
+body {
+    background-color: #ff900e1a;
+
 }
 
+* {
+    max-width: 95%;
+    margin: 0 auto;
+}
 
+.text-center {
+    text-align: center;
+}
 
+.mt {
+    margin: 50px 0;
+}
+
+.mts {
+    margin: 10px 0;
+}
+
+.btn-primary {
+    padding: 1em;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background-color: #694419;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-white {
+    padding: 1em;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+
+}
+
+.btn-white a {
+    color: black;
+
+}
+
+/* nav part style  */
 
 
 nav {
@@ -57,4 +105,185 @@ nav {
     margin-top: 2em;
     width: 950px;
 
+}
+/* Features-part style  */
+
+.Features-part {
+    display: flex;
+
+    align-items: center;
+    margin: 3em 0;
+
+
+}
+
+.Features-images {
+    width: 100em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    gap: 1em;
+
+
+}
+
+.Features-img {
+   
+    margin: 0;
+}
+
+.Features-details {
+
+}
+
+.Features-title {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.title-color {}
+
+.Features-descriptino {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* Featutes-love-enjoy  */
+
+.Featutes-love-enjoy {
+    display: flex;
+}
+
+.Features-enjoy {
+   
+}
+
+.right-border {
+    padding: 5px 5px 5px 8px;
+    border-left: 3px solid #FF900E;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.right-border-d {
+    margin-left: 0;
+    margin-top: 8px;
+    padding: 1%;
+}
+
+.Features-enjoy-image {}
+
+.enjoy-item-part {
+    margin-top: 1em;
+}
+
+
+.enjoy-item {
+    padding: 12px;
+    width: 586px;
+    height: 80px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.e-i-titl {
+    margin-top: 2em;
+}
+
+/* Some Facts part style */
+
+.Categorys {
+    display: flex;
+    gap: 2em;
+}
+
+.Category {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 200px;
+
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+
+
+
+    transition: transform 0.5s ease-in-out;
+}
+
+.Category>h3 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.Category:hover {
+    background-color: #FF900E;
+    transform: rotate(360deg);
+}
+
+
+/* Our Sponspors style  */
+
+.Sponspors-title {
+    text-align: center;
+}
+
+.Sponspors-title>h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+.sponsors-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+/* Hire the best Architects style  */
+.bg-i-c {
+    display: flex;
+}
+
+.bg-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    background-image: url("../images/cover.png"), linear-gradient(#ff900e, #11238b);
+
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+.font-size-b {
+    font-size: 45px;
+    font-weight: 700;
+    color: #040338;
+}
+
+.bg-color {
+    background-color: #FF900E;
+    padding: 2em;
+}
+
+
+/* footer part style  */
+
+
+.footer {
+    background-color: #ff8f0e23;
+    border-radius: 8px;
+    width: 1440px;
+    padding: 3em;
 }
