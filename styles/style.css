@@ -1,3 +1,60 @@
 body{
     background-color: #f0f5f57d;
 }
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.nav-logo h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-items ul {
+    display: flex;
+    gap: 1em;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* banner part style */
+
+.banner {
+    margin-top: 3em;
+}
+
+.banner-title-text {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+
+
+.banner-title {
+    text-align: center;
+}
+
+.banner-title p {
+    margin: 2em 0;
+}
+
+.image {
+    margin-top: 2em;
+    width: 950px;
+
+}
